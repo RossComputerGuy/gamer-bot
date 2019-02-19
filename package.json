@@ -1,0 +1,33 @@
+{
+  "name": "gamer-bot",
+  "version": "1.0.0",
+  "description": "The Discord bot for the Neo Gamer's discord server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node actions/start.js",
+    "setup": "node actions/setup.js",
+    "eslint": "eslint *.js",
+    "prepublishOnly": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceboyRoss01/gamer-bot.git"
+  },
+  "keywords": [
+    "cc",
+    "discord"
+  ],
+  "author": "Spaceboy Ross",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SpaceboyRoss01/gamer-bot/issues"
+  },
+  "homepage": "https://github.com/SpaceboyRoss01/gamer-bot#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "slimcord.js": "^1.0.2"
+  }
+}
